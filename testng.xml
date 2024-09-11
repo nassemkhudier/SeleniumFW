@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="Utils.listeners"></listener>
+    </listeners>
+    <groups>
+        <run>
+            <include name="Regression"/>
+        </run>
+    </groups>
+    <test name="All Test Suite">
+        <classes>
+            <class name="TestAmazon"></class>
+        </classes>
+    </test>
+</suite>
